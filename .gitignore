@@ -1,0 +1,12 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Vite build outputs
+dist/
+**/dist/
+
+# OS/dev
+.DS_Store
+.vscode/
+.env
