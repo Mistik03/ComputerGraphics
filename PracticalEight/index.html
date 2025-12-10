@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practical 8 - Interactions</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      font-family: Arial;
+      background: #111;
+      color: white;
+    }
+
+    #scene {
+      flex: 1;
+    }
+
+    #infoPanel {
+      width: 300px;
+      padding: 20px;
+      background: #1e1e1e;
+      border-left: 2px solid #444;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="scene"></div>
+
+  <div id="infoPanel">
+    <h3>Cube Info</h3>
+    <p id="cubeInfo">Click a cube to see its information here.</p>
+  </div>
+
+
+  <script src="src/main.js" type="module"></script>
+</body>
+</html>
