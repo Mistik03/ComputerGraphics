@@ -2,11 +2,6 @@
 
 A modular Three.js scene featuring a neighborhood with roads, houses, imported GLB assets, snowfall, lighting controls, and a moving car.
 
-## Tech Stack
-- Three.js
-- dat.GUI
-- Vite
-
 ## Features
 - Interactive camera controls with `OrbitControls`
 - Toggleable grid and ambient light intensity via GUI
@@ -59,16 +54,6 @@ npm install
 npx vite
 ```
 
-### Production Build
-```bash
-npm run build
-```
-
-### Preview Build
-```bash
-npx vite preview
-```
-
 ## Controls
 - Left mouse drag: orbit
 - Right mouse drag: pan
@@ -83,7 +68,3 @@ npx vite preview
 - Adjust lights/environment: edit `scene/environment.js`.
 - Change neighborhood/custom house geometry/materials: edit `scene/structures.js`.
 - Swap textures: edit `scene/textures.js`.
-
-## Notes
-- All static assets are loaded from `public/` using root-relative paths (for example: `/models/tree.glb`).
-- Animation is centralized in one loop (`main.js`) and uses `updaters` for extensible per-frame logic.
